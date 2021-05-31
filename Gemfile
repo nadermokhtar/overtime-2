@@ -16,6 +16,7 @@ gem 'devise'
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
+  gem 'factory_bot_rails'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'database_cleaner'
